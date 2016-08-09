@@ -7,7 +7,7 @@ from weather.items import WeatherItem
 class WeatherSpider(scrapy.Spider):
 	name = 'myweather'
 	allowed_domains = ['sina.com.cn']
-	start_urls = ['http://weather.sina.com.cn']
+	start_urls = ['http://weather.sina.com.cn/feicheng']
 
 	def parse(self,response):
 		item = WeatherItem()

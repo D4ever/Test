@@ -1,22 +1,22 @@
-city:北京
+city:肥城
 
-date:08-09		day:多云31°C 		night:晴 25°C
+date:08-09		day:多云(32°C )		night:多云( 25°C)
 
-date:08-10		day:多云33°C 		night:多云 27°C
+date:08-10		day:多云(33°C )		night:多云( 25°C)
 
-date:08-11		day:多云33°C 		night:多云 27°C
+date:08-11		day:多云(33°C )		night:多云( 26°C)
 
-date:08-12		day:雷阵雨33°C 		night:雷阵雨 25°C
+date:08-12		day:多云(33°C )		night:多云( 26°C)
 
-date:08-13		day:雷阵雨28°C 		night:雷阵雨 24°C
+date:08-13		day:多云(33°C )		night:多云( 26°C)
 
-date:08-14		day:阴30°C 		night:阴 23°C
+date:08-14		day:多云(32°C )		night:多云( 25°C)
 
-date:08-15		day:阴27°C 		night:阴 24°C
+date:08-15		day:多云(29°C )		night:阵雨( 22°C)
 
-date:08-16		day:少云29°C 		night:少云 20°C
+date:08-16		day:局部多云(28°C )		night:局部多云( 21°C)
 
-date:08-17		day:雷雨29°C 		night:少云 20°C
+date:08-17		day:阴天(28°C )		night:局部多云( 19°C)
 
-date:08-18		day:局部多云29°C 		night:局部多云 19°C
+date:08-18		day:局部多云(29°C )		night:局部多云( 19°C)
 
