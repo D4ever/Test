@@ -1,0 +1,7 @@
+body  {background-color:#C7EDCC !important;}
+table {background-color:#C7EDCC !important;}
+td    {background-color:#C7EDCC !important;}
+a:link    {color:#2F4F4F!important;}     
+a:visited {color:#228B22!important;}     
+a:hover   {color:#483D8B!important;background:#4EEE94!important;}
+a:active  {color:#8B4513!important;background:#4EEE94!important;}
