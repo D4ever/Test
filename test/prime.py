@@ -1,26 +1,17 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-def pri(n):
-	global index
-	index = 0
-	if n == 1:
-		print ('No prime number')
+def prime(n):
+	x = []
+	if n <= 0:
+		print('no prime')
 	else:
-		print(2)
-		for i in range(2,n):
-			for j in range(2,i):
-				if i%j == 0:
-					index = j
+		for i in range(2,n+1):
+			for j in range(2,i+1):
+				if i % j ==0:
 					break
-				index = j
-			if index == i-1:
-				print(i)
-
-
-n = int(input('Please enter a positive integer: '))
-
-if n <= 0:
-	print('Please check your enter.')
-else:
-	pri(n)
+			if i ==j:
+				x.append(int(i))
+	print(x)
+n = int(input('Please input a number(n), we will give you all prime in 0 ~ n: '))
+prime(n)

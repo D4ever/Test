@@ -1,18 +1,21 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-f = open('test.txt','rb')
-L=[]
-content = f.read().decode()
+def wordrm(s):
+	a = ''
+	index = []
+	sr = tuple(s.split())
+	for i in sr:
+		if i in index:
+			pass
+		else:
+			a = a + str(i) + ' '
+			index.append(i)
+	return a
 
-L = content.split()
-word = set(L)
-con = ''
-for a in word:
-    con = con + a + ' '
-
-R = open('NewWord.txt,'w')
-
-R.write(con)
-R.close()
+f = open('test.txt')
+st = f.read()
+f1 = open('measure.txt','w')
+f1.write(wordrm(st))
 f.close()
+f1.close()

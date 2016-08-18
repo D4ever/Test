@@ -1,18 +1,17 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-def countW(L):
-	word = set(L)
-	print (word)
-	for a in word:
-		x = L.count(a)
-		print(a,': ',x)
+def wordcounts(s):
+	dic = {}
+	sr = s.split()
+	word = set(sr)
+	for i in word:
+		dic[i] = sr.count(i)
 
-f = open('test.txt','rb')
-L=[]
-content = f.read().decode()
+	print (dic)
 
-L = content.split()
+f = open('test.txt')
+st = f.read()
+wordcounts(st)
 
-countW(L)
 f.close()
